@@ -1,0 +1,10 @@
+# seed 데이터 (로컬 테스트용)
+seed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
