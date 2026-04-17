@@ -5,6 +5,31 @@ Spring Boot REST API + Vue 3 SPA 구조로 구성되어 있습니다.
 
 ---
 
+## 📸 화면 미리보기
+
+### 메인 페이지
+![메인 페이지](docs/screenshots/01_home.png)
+
+### 악기 목록 / 검색
+![악기 목록](docs/screenshots/02_instrument_list.png)
+
+### 상품 상세 — 구매자 뷰
+![상품 상세](docs/screenshots/04_instrument_detail_buyer.png)
+
+### 거래 요청 모달
+![거래 요청](docs/screenshots/04b_trade_modal.png)
+
+### 상품 상세 — 판매자 뷰
+![판매자 뷰](docs/screenshots/03_instrument_detail_seller.png)
+
+### 마이페이지
+![마이페이지](docs/screenshots/05_mypage.png)
+
+### 거래 관리
+![거래 관리](docs/screenshots/06_trade_management.png)
+
+---
+
 ## 📌 주요 기능
 
 ### 🔐 인증

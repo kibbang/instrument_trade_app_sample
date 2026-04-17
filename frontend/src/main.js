@@ -2,8 +2,15 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
+import { useAuthStore } from '@/stores/auth'
 
 const app = createApp(App)
-app.use(createPinia())
+const pinia = createPinia()
+app.use(pinia)
 app.use(router)
-app.mount('#app')
+
+// 페이지 새로고침 시 localStorage의 refreshToken으로 로그인 상태 복원
+const authStore = useAuthStore()
+authStore.initAuth().finally(() => {
+  app.mount('#app')
+})
